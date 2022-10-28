@@ -1,6 +1,3 @@
-from curses import raw
-
-
 print("Ingresa los valores")
 print("|a00 a01 a02|")
 print("|a10 a11 a12|")
