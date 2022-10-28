@@ -15,5 +15,8 @@ def eliminar(polinomio):
         print(i)
 
 def comprobar(polinomio):
-    
-       
+    elemento = input("Introduce un elemento: ")
+    if elemento in polinomio:
+        print("El elemento introducido está en el polinomio.")
+    else:
+        print("El elemento introducido no está en el polinomio")
