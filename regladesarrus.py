@@ -4,7 +4,7 @@ from curses import raw
 print("Ingresa los valores")
 print("|a00 a01 a02|")
 print("|a10 a11 a12|")
-print("|a20 a21 a22")
+print("|a20 a21 a22|")
 
 a00 = float(input("Ingresa el valor de a00: "))
 a01 = float(input("Ingresa el valor de a01: "))
