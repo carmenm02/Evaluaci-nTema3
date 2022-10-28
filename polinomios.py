@@ -9,7 +9,11 @@ def dividir(p1,p2):
 
 def eliminar(polinomio):
     polinomio = input("Introduce un polinomio: ")
-    terminos = separarterminos(polinomio)
+    terminos = terminos(polinomio)
+    terminos.pop()
     for i in terminos:
         print(i)
+
+def comprobar(polinomio):
+    
        
