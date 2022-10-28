@@ -4,3 +4,5 @@ P2 = input("Segundo polinomio: ")
 
 def restar(p1,p2):
     return p1 - p2
+def dividir(p1,p2):
+    return p1 / p2
