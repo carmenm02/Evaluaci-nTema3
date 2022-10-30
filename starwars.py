@@ -56,4 +56,15 @@ def seispasajerosi(lista):
     for nave in lista:
         if nave.pasajeros >= 6:
             print(nave.nombre,nave.pasajeros)
-
+def navemaspequeña(lista):
+    menor = 0
+    for nave in lista:
+        if nave.largo < menor.largo:
+            menor = nave
+    print(menor.nombre,menor.largo)
+def navemasgrande(lista):
+    mayor = 0
+    for nave in lista:
+        if nave.largo < mayor.largo:
+            mayor = nave
+    print(mayor.nombre,mayor.largo)
