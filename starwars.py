@@ -1,0 +1,30 @@
+from distutils.log import info
+from pickle import NONE
+
+from sympy import li
+
+
+class Nodo():
+    info, sig=None,None
+
+class Nave:
+    def __init__(self,nombre,largo,tripulacion,pasajeros):
+        self.nombre = nombre
+        self.largo = largo
+        self.tripulacion = tripulacion
+        self.pasajeros = pasajeros
+
+    def agregar_naves():
+        naves = []
+        naves.append(Nave("Halcón Milenario"))
+        naves.append(Nave("Estrella de la Muerte"))
+    def ascendente(lista):
+        for i in range(len(lista)):
+            for j in range(i+1,len(lista)):
+                if lista[i].nombre > lista[j].nombre:
+                    lista[i],lista[j] = lista[j],lista[i]
+    def descendente(lista):
+        for i in range(len(lista)):
+            for j in range(i+1,len(lista)):
+                if lista[i].nombre < lista[j].nombre:
+                    lista[i],lista[j] = lista[j],lista[i]
