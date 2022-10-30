@@ -46,3 +46,14 @@ def mayortripulacion(lista):
             if nave.tripulacion > mayor.tripulacion:
                 mayor = nave
             print(mayor.nombre,mayor.tripulacion)
+
+def AT(lista):
+    for nave in lista:
+        if nave.nombre[0] == "A" and nave.nombre[1] == "T":
+            print(nave.nombre)
+
+def seispasajerosi(lista):
+    for nave in lista:
+        if nave.pasajeros >= 6:
+            print(nave.nombre,nave.pasajeros)
+
